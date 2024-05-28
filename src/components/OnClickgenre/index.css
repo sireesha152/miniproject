@@ -1,0 +1,81 @@
+.home-containerg {
+  background-color: grey;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .home-containerg {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.loading {
+  height: 50px;
+  width: 50px;
+}
+.colc {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.trybuttonc {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  height: 30px;
+  width: 120px;
+  outline: none;
+  cursor: pointer;
+}
+.list-columng {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.eachg {
+  height: 100vh;
+  width: 100%;
+  background: none;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+}
+
+.list-item-containerg {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.imgg {
+  height: 200px;
+  width: 200px;
+}
+.typelistg {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 50px;
+}
+.backbuttong {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  background: none;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.back-arrowg {
+  margin-right: 10px;
+}

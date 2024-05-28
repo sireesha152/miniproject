@@ -1,0 +1,58 @@
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://res.cloudinary.com/dj4zaf9dt/image/upload/v1715833379/profilebg_urptjp.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.login-container {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  width: 30%;
+}
+.heading {
+  color: #ffffff;
+  font-size: 24px;
+  align-self: center;
+  font-weight: bold;
+}
+.music {
+  height: 30px;
+  width: 100%;
+  align-self: center;
+  color: #ffffff;
+}
+.label {
+  font-size: 18px;
+  color: #ffffff;
+}
+.input {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+}
+.button {
+  background-color: green;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.error {
+  color: red;
+}

@@ -1,0 +1,129 @@
+.home-containerr {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .home-containerr {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.loadingr {
+  height: 50px;
+  width: 50px;
+}
+.colr {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.trybuttonr {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  height: 30px;
+  width: 120px;
+  outline: none;
+  cursor: pointer;
+}
+.columnr1 {
+  display: flex;
+  flex-direction: column;
+}
+.scrollr {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 80px;
+  right: 80px;
+  height: 30px;
+  width: 30%;
+  background-color: none;
+}
+figure {
+  margin: 0;
+}
+.list-columnr {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 95vw;
+  background-color: grey;
+}
+.eachr {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.details-containerr {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+}
+.detailsofimgr {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-left: 12px;
+}
+.para1r {
+  color: #ffffff;
+  font-size: 12px;
+}
+.headnamer {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.hrliner {
+  color: #ffffff;
+  width: 100%;
+}
+
+.rowr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ffffff;
+}
+.typer {
+  color: #ffffff;
+  font-size: 14px;
+
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.list-item-containerr {
+  display: flex;
+  flex-direction: column;
+  list-style-type: decimal;
+}
+.imgr {
+  height: 200px;
+  width: 200px;
+}
+.backbuttonr {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  background: none;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.back-arrowr {
+  margin-right: 10px;
+}

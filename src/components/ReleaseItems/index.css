@@ -1,0 +1,21 @@
+.itemsr {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  margin-left: 290px;
+}
+.pr {
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 100px;
+  min-width: 130px;
+  text-align: start;
+}
+.buttonr {
+  background: none;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}

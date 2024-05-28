@@ -1,0 +1,23 @@
+.items-containerg {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: 150px;
+  width: 120px;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.detailsg {
+  color: #ffffff;
+  font-size: 12px;
+}
+.picg {
+  height: 70%;
+  width: 90%;
+}
+.tracksg {
+  color: white;
+  font-size: 12px;
+  margin-top: 0px;
+}

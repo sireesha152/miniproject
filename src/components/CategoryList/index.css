@@ -1,0 +1,17 @@
+.items-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.name {
+  color: white;
+}
+.pic {
+  height: 80%;
+  width: 100%;
+}

@@ -1,0 +1,44 @@
+.header-container {
+  height: 100%;
+  width: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+}
+@media (max-width: 800px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+}
+.b {
+  background-color: transparent;
+  text-align: start;
+  outline: none;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  border: none;
+  margin: 5px;
+}
+.navlist {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 120px;
+  justify-content: space-around;
+}
+.button1 {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+.musiclogo {
+  margin-top: 30px;
+  height: 30px;
+  width: 60px;
+}

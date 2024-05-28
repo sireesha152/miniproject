@@ -1,0 +1,125 @@
+.home-containerf {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
+}
+@media (max-width: 800px) {
+  .home-containerf {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.loadingf {
+  height: 50px;
+  width: 50px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.trybuttonf {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  height: 30px;
+  width: 120px;
+  outline: none;
+  cursor: pointer;
+}
+.columnf1 {
+  display: flex;
+  flex-direction: column;
+}
+.scroll {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 80px;
+  right: 80px;
+  height: 30px;
+  width: 30%;
+  background-color: none;
+}
+figure {
+  margin: 0;
+}
+.list-columnf {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 95vw;
+  background-color: grey;
+}
+.eachf {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.details-containerf {
+  display: flex;
+  flex-direction: row;
+}
+.detailsofimgf {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.para1f {
+  color: #ffffff;
+  font-size: 12px;
+}
+.headnamef {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+}
+.hrlinef {
+  color: #ffffff;
+  width: 100%;
+}
+.rowf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ffffff;
+}
+.typef {
+  color: #ffffff;
+  font-size: 14px;
+
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.list-item-containerf {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
+.imgf {
+  height: 200px;
+  width: 200px;
+}
+.backbuttonf {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  background: none;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.back-arrowf {
+  margin-right: 10px;
+}
