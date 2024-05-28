@@ -13,9 +13,14 @@
     flex-direction: column;
   }
 }
+.b{
+  height: 800px;
+  width: 800px;
+  align-self: center;
+}
 .loading {
-  height: 50px;
-  width: 50px;
+  height: 250px;
+  width: 250px;
 }
 .colc {
   display: flex;

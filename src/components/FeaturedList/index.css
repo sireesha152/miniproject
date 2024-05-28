@@ -14,9 +14,15 @@
     flex-direction: column;
   }
 }
+.b {
+  align-self: center;
+  height: 800px;
+  width: 800px;
+}
 .loadingf {
-  height: 50px;
-  width: 50px;
+  height: 550px;
+  width: 550px;
+  align-self: center;
 }
 .col {
   display: flex;

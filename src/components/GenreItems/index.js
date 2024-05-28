@@ -8,7 +8,7 @@ const GenreItems = props => {
     <li className="items-containerg">
       <img src={url} alt="category" className="picg" />
       <p className="detailsg">{name}</p>
-      <p className="tracksg">{tracks}</p>
+      <p className="tracksg">{tracks} tracks</p>
     </li>
   )
 }

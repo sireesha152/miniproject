@@ -72,7 +72,7 @@ class OnClickgenre extends Component {
   }
 
   render() {
-    const {list, isLoading, isSuccess, head} = this.state
+    const {list, isLoading, isSuccess} = this.state
     // console.log(isLoading)
 
     // console.log(isSuccess)
@@ -91,19 +91,16 @@ class OnClickgenre extends Component {
               <p className="backg">Back</p>
             </button>
 
-            {isLoading && (
-              <div data-testid="loader">
+            {isLoading ? (
+              <div data-testid="loader" className="b">
                 <img
                   src="https://res.cloudinary.com/dj4zaf9dt/image/upload/v1715835011/Loading_ktize5.png"
                   alt="loader"
                   className="loading"
                 />
               </div>
-            )}
-            {isSuccess ? (
+            ) : (
               <>
-                <h1 className="typelistg">{head}</h1>
-
                 <ul className="list-item-containerg">
                   {list.map(eachItem => {
                     const options = {
@@ -115,7 +112,8 @@ class OnClickgenre extends Component {
                   })}
                 </ul>
               </>
-            ) : (
+            )}
+            {!isSuccess && (
               <div className="colc">
                 <img
                   src="https://res.cloudinary.com/dj4zaf9dt/image/upload/v1716141506/alert-triangle_iulybe.png"

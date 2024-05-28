@@ -91,16 +91,15 @@ class OnClickRelease extends Component {
               <RiArrowGoBackFill className="back-arrowr" />
               <p className="backr">Back</p>
             </button>
-            {isLoading && (
-              <div data-testid="loader">
+            {isLoading ? (
+              <div data-testid="loader" className="b">
                 <img
                   src="https://res.cloudinary.com/dj4zaf9dt/image/upload/v1715835011/Loading_ktize5.png"
                   alt="loader"
                   className="loadingr"
                 />
               </div>
-            )}
-            {isSuccess ? (
+            ) : (
               <div className="columnr1">
                 <div className="details-containerr">
                   <img src={reqdata.images[0].url} alt="alt" className="imgr" />
@@ -154,7 +153,8 @@ class OnClickRelease extends Component {
                   />
                 </div>
               </div>
-            ) : (
+            )}
+            {!isSuccess && (
               <div className="colr">
                 <img
                   src="https://res.cloudinary.com/dj4zaf9dt/image/upload/v1716141506/alert-triangle_iulybe.png"

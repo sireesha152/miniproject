@@ -13,9 +13,14 @@
     flex-direction: column;
   }
 }
+.b {
+  align-self: center;
+  height: 1000px;
+  width: 1000px;
+}
 .loadingr {
-  height: 50px;
-  width: 50px;
+  height: 250px;
+  width: 250px;
 }
 .colr {
   display: flex;
